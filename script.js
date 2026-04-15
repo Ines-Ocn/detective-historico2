@@ -309,7 +309,7 @@ const sessions = [
     title: 'La ciudad medieval como sistema',
     type: 'fuentes',
     tag: 'Sesión 4 · Fuentes Primarias',
-    desc: 'Fuero de Sevilla · Regulación social y estructura urbana',
+    desc: 'Regulación social y estructura urbana',
     render: () => `
       <div class="panel">
         <div class="panel-header gold"><span class="panel-icon">🎯</span><span class="panel-title">Objetivos</span></div>
