@@ -741,7 +741,7 @@ function restoreAnswers() {
 // ══════════════════════════════════════════
 //  GOOGLE SHEETS INTEGRATION
 // ══════════════════════════════════════════
-const SHEET_URL = 'https://script.google.com/macros/s/AKfycbyGy_Cgv91UpusCZzeyXORAqM5picwbnyq3VwSh-fiUouS1AGuIx4aBQzZ5vh1ja737/exec';
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxz0MOeMJX9mUPIve-AfdNIP2Zt3ELjIW3lR92lYl5J5TEv5Gnru2Lsay8dyINoUPyy/exec';
 
 const QUESTION_LABELS = {
   // Sesión 1 — Alfonso X y la construcción del saber
