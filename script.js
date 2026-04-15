@@ -322,6 +322,10 @@ const sessions = [
       </div>
 
       <div class="panel">
+        <div class="panel-header gold"><span class="panel-icon">📜</span><span class="panel-title">Fuente · «Usos e costumbres del mercado de Sevilla»</span></div>
+        <div class="panel-body">
+
+      <div class="panel">
         <div class="panel-body">
           <div class="source-text" style="border-left-color:#5577cc;">
             <strong>Fuente primaria — <em>«Usos e costumbres del mercado de Sevilla»</em> (c. 1275):</strong><br>
