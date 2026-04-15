@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detective Histórico — Alfonso X el Sabio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════ LOGIN SCREEN ══════════════ -->
+<div id="screen-login" class="screen active">
+  <div class="login-card">
+    <div class="login-ornament">⚜</div>
+    <h1 class="login-title">Detective Histórico</h1>
+    <p class="login-sub">Alfonso X el Sabio · Siglo XIII · Bachillerato</p>
+
+    <label class="field-label" for="code-input">Tu código personal</label>
+    <input class="field-input" type="text" id="code-input" placeholder="Ej: AG07" maxlength="6" autocomplete="off" autocapitalize="characters">
+    <p class="field-hint">Iniciales + año de nacimiento (Ana García, 2007 → AG07)</p>
+
+    <button class="btn-primary" id="btn-login">Entrar a la investigación →</button>
+    <div class="error-msg" id="login-error">Introduce tu código personal para continuar.</div>
+  </div>
+</div>
+
+<!-- ══════════════ APP SCREEN ══════════════ -->
+<div id="screen-app" class="screen">
+
+  <header class="app-header">
+    <span class="header-title">⚜ Detective Histórico</span>
+    <span class="header-code" id="header-code"></span>
+    <button class="header-logout" onclick="handleLogout()">Cerrar sesión</button>
+  </header>
+
+  <div class="progress-bar">
+    <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+  </div>
+
+  <div class="app-body">
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-section-title">Sesiones</div>
+        <button class="session-btn" id="nav-1" onclick="goSession(1)">
+          <div class="session-badge"><span class="session-num">1</span></div>
+          <div class="session-info">
+            <span class="session-name">Scriptorium</span>
+            <span class="session-type type-novela">Novela histórica</span>
+          </div>
+        </button>
+        <button class="session-btn" id="nav-2" onclick="goSession(2)">
+          <div class="session-badge"><span class="session-num">2</span></div>
+          <div class="session-info">
+            <span class="session-name">Poder y Ley</span>
+            <span class="session-type type-fuentes">Fuentes primarias</span>
+          </div>
+        </button>
+        <button class="session-btn" id="nav-3" onclick="goSession(3)">
+          <div class="session-badge"><span class="session-num">3</span></div>
+          <div class="session-info">
+            <span class="session-name">El herrero del rey</span>
+            <span class="session-type type-novela">Novela histórica</span>
+          </div>
+        </button>
+        <button class="session-btn" id="nav-4" onclick="goSession(4)">
+          <div class="session-badge"><span class="session-num">4</span></div>
+          <div class="session-info">
+            <span class="session-name">Lengua castellana</span>
+            <span class="session-type type-novela">Novela histórica</span>
+          </div>
+        </button>
+        <button class="session-btn" id="nav-5" onclick="goSession(5)">
+          <div class="session-badge"><span class="session-num">5</span></div>
+          <div class="session-info">
+            <span class="session-name">Cultura y sociedad</span>
+            <span class="session-type type-fuentes">Fuentes primarias</span>
+          </div>
+        </button>
+        <button class="session-btn" id="nav-6" onclick="goSession(6)">
+          <div class="session-badge"><span class="session-num">6</span></div>
+          <div class="session-info">
+            <span class="session-name">Comercio y ética</span>
+            <span class="session-type type-novela">Novela histórica</span>
+          </div>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="content-area" id="content-area">
+      <!-- Rendered by JS -->
+    </main>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
