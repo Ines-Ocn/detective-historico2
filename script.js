@@ -490,79 +490,99 @@ const sessions = [
     `
   },
 
-  // ── SESIÓN 6: DISCUSIÓN (GRUPO FOCAL) ──
-  {
-    id: 6,
-    title: 'Discusión · Grupo focal',
-    type: 'fuentes',
-    tag: 'Sesión 6 · Grupo focal',
-    desc: 'Percepción del trabajo con fuentes históricas',
-    render: () => `
-      <div class="panel">
-        <div class="panel-header gold"><span class="panel-icon">🎯</span><span class="panel-title">Objetivo</span></div>
-        <div class="panel-body">
-          <p style="color:#3a2a12;font-size:0.98rem;line-height:1.6;">
-            Obtener tu percepción sobre la forma en que habéis trabajado la historia durante las cinco sesiones anteriores. <strong>No hay respuestas correctas</strong>: se trata de recoger tu opinión sincera.
+// ── SESIÓN 6: Reflexión individual final — Grupo control ──
+{
+  id: 6,
+  title: 'Reflexión final — Experiencia de aprendizaje',
+  type: 'fuentes',
+  tag: 'Sesión 6 · Reflexión individual · Evaluación cualitativa',
+  desc: 'Reflexión individual sobre la experiencia de aprendizaje con fuentes históricas y enseñanza expositiva',
+  render: () => `
+    
+    <div class="panel">
+      <div class="panel-header blue">
+        <span class="panel-icon">✍️</span>
+        <span class="panel-title">Tu opinión personal</span>
+      </div>
+      <div class="panel-body">
+        <p style="color:#1a2a4a;font-size:1rem;line-height:1.6;">
+          En esta última sesión vas a realizar una reflexión individual sobre la experiencia de aprendizaje desarrollada durante estas clases. No se trata de una evaluación, sino de un espacio para expresar tu percepción personal.
+        </p>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header gold">
+        <span class="panel-icon">🧠</span>
+        <span class="panel-title">Preguntas de reflexión</span>
+      </div>
+
+      <div class="panel-body">
+
+        <div class="question-block">
+          <span class="question-label">Reflexión 1</span>
+          <p class="question-prompt">
+            ¿Cómo describirías la forma en que has trabajado la historia en estas sesiones?
           </p>
+          <textarea class="answer-field" id="s6_q1" rows="4" placeholder="Escribe tu respuesta..."></textarea>
         </div>
-      </div>
 
-      <div class="panel">
-        <div class="panel-header red"><span class="panel-icon">💬</span><span class="panel-title">Preguntas guía</span></div>
-        <div class="panel-body">
-          <div class="question-block">
-            <span class="question-label">1. Forma de trabajar</span>
-            <p class="question-prompt">¿Cómo describiríais la forma en que habéis trabajado la historia en estas sesiones?</p>
-            <textarea class="answer-field" id="s6_q1" rows="4" placeholder="Describe el tipo de actividades, el ritmo, la dinámica..."></textarea>
-          </div>
+        <hr class="divider">
 
-          <div class="question-block">
-            <span class="question-label">2. Dificultades con las fuentes</span>
-            <p class="question-prompt">¿Qué dificultades habéis encontrado al trabajar con fuentes históricas?</p>
-            <textarea class="answer-field" id="s6_q2" rows="4" placeholder="Lenguaje, contexto, interpretación, extensión..."></textarea>
-          </div>
-
-          <div class="question-block">
-            <span class="question-label">3. ¿Analizar documentos ayuda a comprender el pasado?</span>
-            <p class="question-prompt">¿Creéis que analizar documentos os ayuda a comprender mejor el pasado? ¿Por qué?</p>
-            <textarea class="answer-field" id="s6_q3" rows="4" placeholder="Argumenta desde tu experiencia personal en las sesiones..."></textarea>
-          </div>
-
-          <div class="question-block">
-            <span class="question-label">4. Actividades más útiles</span>
-            <p class="question-prompt">¿Qué tipo de actividades os ayudan más a aprender historia?</p>
-            <textarea class="answer-field" id="s6_q4" rows="4" placeholder="Lectura, debate, escritura, comparación, audiovisual..."></textarea>
-          </div>
-
-          <div class="question-block">
-            <span class="question-label">5. Materiales o enfoques que echáis en falta</span>
-            <p class="question-prompt">¿Echáis en falta algún tipo de material o enfoque?</p>
-            <textarea class="answer-field" id="s6_q5" rows="4" placeholder="¿Mapas, vídeos, visitas, narrativas, objetos...?"></textarea>
-          </div>
-
-          <div class="question-block">
-            <span class="question-label">6. Mejoras</span>
-            <p class="question-prompt">¿Cómo mejoraríais estas clases?</p>
-            <textarea class="answer-field" id="s6_q6" rows="4" placeholder="Propuestas concretas de mejora..."></textarea>
-          </div>
+        <div class="question-block">
+          <span class="question-label">Reflexión 2</span>
+          <p class="question-prompt">
+            ¿Qué dificultades has encontrado al trabajar con las actividades?
+          </p>
+          <textarea class="answer-field" id="s6_q2" rows="4" placeholder="Describe las dificultades que hayas tenido..."></textarea>
         </div>
-      </div>
 
-      <div class="panel">
-        <div class="panel-header gold"><span class="panel-icon">✅</span><span class="panel-title">Autoevaluación antes de enviar</span></div>
-        <div class="panel-body">
-          <div class="checklist">
-            <div class="check-item"><input type="checkbox"> <span>He respondido con sinceridad a todas las preguntas</span></div>
-            <div class="check-item"><input type="checkbox"> <span>He dado ejemplos concretos de las sesiones</span></div>
-            <div class="check-item"><input type="checkbox"> <span>Mis propuestas de mejora son realistas</span></div>
-          </div>
+        <hr class="divider">
+
+        <div class="question-block">
+          <span class="question-label">Reflexión 3</span>
+          <p class="question-prompt">
+            ¿Crees que esta forma de trabajar te ha ayudado a comprender mejor el pasado? ¿Por qué?
+          </p>
+          <textarea class="answer-field" id="s6_q3" rows="5" placeholder="Argumenta tu respuesta..."></textarea>
         </div>
-      </div>
 
-      ${orgPanel(6)}
-    `
-  }
-];
+        <hr class="divider">
+
+        <div class="question-block">
+          <span class="question-label">Reflexión 4</span>
+          <p class="question-prompt">
+            ¿Qué tipo de actividades te han resultado más útiles para aprender historia?
+          </p>
+          <textarea class="answer-field" id="s6_q4" rows="4" placeholder="Explica qué actividades te han ayudado más..."></textarea>
+        </div>
+
+        <hr class="divider">
+
+        <div class="question-block">
+          <span class="question-label">Reflexión 5</span>
+          <p class="question-prompt">
+            ¿Echas en falta algún tipo de material o enfoque?
+          </p>
+          <textarea class="answer-field" id="s6_q5" rows="4" placeholder="Indica si falta algo en las sesiones..."></textarea>
+        </div>
+
+        <hr class="divider">
+
+        <div class="question-block">
+          <span class="question-label">Reflexión 6</span>
+          <p class="question-prompt">
+            ¿Cómo mejorarías estas clases?
+          </p>
+          <textarea class="answer-field" id="s6_q6" rows="4" placeholder="Propón mejoras..."></textarea>
+        </div>
+
+      </div>
+    </div>
+
+    ${orgPanel(6)}
+  `
+}
 
 // ══════════════════════════════════════════
 //  AUTH
