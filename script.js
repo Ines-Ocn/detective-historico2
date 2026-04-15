@@ -61,16 +61,6 @@ const sessions = [
       </div>
 
       <div class="panel">
-        <div class="panel-header blue"><span class="panel-icon">📚</span><span class="panel-title">Materiales</span></div>
-        <div class="panel-body">
-          <ul class="context-list">
-            <li>Manual escolar</li>
-            <li>Prólogo de las Tablas alfonsíes (abajo)</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="panel">
         <div class="panel-header gold"><span class="panel-icon">📜</span><span class="panel-title">Fuente · Prólogo de las Tablas alfonsíes</span></div>
         <div class="panel-body">
           <div class="source-text">
@@ -82,8 +72,8 @@ const sessions = [
         </div>
       </div>
 
-      <div class="panel">
-        <div class="panel-header red"><span class="panel-icon">❓</span><span class="panel-title">Preguntas</span></div>
+ <div class="panel">
+        <div class="panel-header red"><span class="panel-icon">📝</span><span class="panel-title">Preguntas — Responde individualmente</span></div>
         <div class="panel-body">
           <div class="question-block">
             <span class="question-label">1. Iniciativas culturales</span>
@@ -157,16 +147,6 @@ const sessions = [
       </div>
 
       <div class="panel">
-        <div class="panel-header blue"><span class="panel-icon">📚</span><span class="panel-title">Materiales</span></div>
-        <div class="panel-body">
-          <ul class="context-list">
-            <li>Manual escolar</li>
-            <li>Extracto de las Siete Partidas (abajo)</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="panel">
         <div class="panel-header gold"><span class="panel-icon">📜</span><span class="panel-title">Fuente · Siete Partidas</span></div>
         <div class="panel-body">
           <div class="source-text">
@@ -179,8 +159,9 @@ const sessions = [
       </div>
 
       <div class="panel">
-        <div class="panel-header red"><span class="panel-icon">❓</span><span class="panel-title">Preguntas</span></div>
+        <div class="panel-header red"><span class="panel-icon">📝</span><span class="panel-title">Preguntas — Responde individualmente</span></div>
         <div class="panel-body">
+        
           <div class="question-block">
             <span class="question-label">1. Modelo de rey</span>
             <p class="question-prompt">¿Qué modelo de rey propone el texto?</p>
@@ -253,16 +234,6 @@ const sessions = [
       </div>
 
       <div class="panel">
-        <div class="panel-header blue"><span class="panel-icon">📚</span><span class="panel-title">Materiales</span></div>
-        <div class="panel-body">
-          <ul class="context-list">
-            <li>Manual escolar</li>
-            <li>Prólogo de las Cantigas de Santa María (abajo)</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="panel">
         <div class="panel-header gold"><span class="panel-icon">📜</span><span class="panel-title">Fuente · Prólogo de las Cantigas de Santa María</span></div>
         <div class="panel-body">
           <div class="source-text">
@@ -275,9 +246,10 @@ const sessions = [
         </div>
       </div>
 
-      <div class="panel">
-        <div class="panel-header red"><span class="panel-icon">❓</span><span class="panel-title">Preguntas</span></div>
+       <div class="panel">
+        <div class="panel-header red"><span class="panel-icon">📝</span><span class="panel-title">Preguntas — Responde individualmente</span></div>
         <div class="panel-body">
+        
           <div class="question-block">
             <span class="question-label">1. Razones del uso del romance</span>
             <p class="question-prompt">¿Qué razones da el texto para el uso del romance?</p>
@@ -350,13 +322,7 @@ const sessions = [
       </div>
 
       <div class="panel">
-        <div class="panel-header blue"><span class="panel-icon">📚</span><span class="panel-title">Materiales</span></div>
         <div class="panel-body">
-          <ul class="context-list">
-            <li>Manual escolar</li>
-            <li>Extracto del Fuero de Sevilla (proporcionado por el profesor)</li>
-          </ul>
-          <p style="color:#3a2a12;margin-top:0.8rem;font-size:0.95rem;">
           <div class="source-text" style="border-left-color:#5577cc;">
             <strong>Fuente primaria — <em>«Usos e costumbres del mercado de Sevilla»</em> (c. 1275):</strong><br>
             <em>Manuscrito del siglo XIII (ed. González Arce, 1989)</em><br><br>
@@ -381,9 +347,8 @@ const sessions = [
       </div>
 
       <div class="panel">
-        <div class="panel-header red"><span class="panel-icon">❓</span><span class="panel-title">Preguntas</span></div>
+        <div class="panel-header red"><span class="panel-icon">📝</span><span class="panel-title">Preguntas — Responde individualmente</span></div>
         <div class="panel-body">
-          <p style="color:#3a2a12;margin-bottom:1rem;font-size:0.95rem;"><em>Responde tras leer el extracto entregado en clase.</em></p>
 
           <div class="question-block">
             <span class="question-label">1. Aspectos regulados</span>
@@ -456,15 +421,6 @@ const sessions = [
         </div>
       </div>
 
-      <div class="panel">
-        <div class="panel-header blue"><span class="panel-icon">📚</span><span class="panel-title">Materiales</span></div>
-        <div class="panel-body">
-          <ul class="context-list">
-            <li>Manual escolar</li>
-            <li>Crónica de Alfonso X — toma de Niebla (abajo)</li>
-          </ul>
-        </div>
-      </div>
 
       <div class="panel">
         <div class="panel-header gold"><span class="panel-icon">📜</span><span class="panel-title">Fuente · Crónica de Alfonso X (toma de Niebla, 1262)</span></div>
@@ -478,8 +434,9 @@ const sessions = [
       </div>
 
       <div class="panel">
-        <div class="panel-header red"><span class="panel-icon">❓</span><span class="panel-title">Preguntas</span></div>
+        <div class="panel-header red"><span class="panel-icon">📝</span><span class="panel-title">Preguntas — Responde individualmente</span></div>
         <div class="panel-body">
+        
           <div class="question-block">
             <span class="question-label">1. Obtención del botín</span>
             <p class="question-prompt">¿Cómo se describe la obtención del botín?</p>
