@@ -357,8 +357,26 @@ const sessions = [
             <li>Extracto del Fuero de Sevilla (proporcionado por el profesor)</li>
           </ul>
           <p style="color:#3a2a12;margin-top:0.8rem;font-size:0.95rem;">
-            <strong>Contexto:</strong> El Fuero de Sevilla (concedido por Fernando III y confirmado/ampliado por Alfonso X) regulaba la vida urbana tras la conquista cristiana de 1248: oficios, mercados, convivencia entre comunidades, orden público, propiedad, justicia local y deberes de los vecinos.
-          </p>
+          <div class="source-text" style="border-left-color:#5577cc;">
+            <strong>Fuente primaria — <em>«Usos e costumbres del mercado de Sevilla»</em> (c. 1275):</strong><br>
+            <em>Manuscrito del siglo XIII (ed. González Arce, 1989)</em><br><br>
+            <strong>[XXII] – Del mercado general de Sevilla</strong><br>
+            En la ciudad de Sevilla hacen cada semana un día mercado general, y es el jueves. Pusieron y acostumbraron que en aquel día fuesen los <strong>ferreros, los zapateros, los correeros, los tenderos, las pescaderas, los regateros y todos los revendedores</strong>. Además, cerraban las tiendas en la villa, y todos los que algo vendían por las plazas iban a él, salvo pan y vino.<br>
+            El peso y las medidas no las tienen en el mercado este día, porque siempre están en la <strong>alhóndiga del rey</strong>, y allí van a pesar y a medir todos.<br><br>
+            <strong>[XXIII] – De los vecinos de Sevilla</strong><br>
+            Todos los mercaderes que son <strong>vecinos de Sevilla</strong>, cuantas mercancías trajeren de fuera del reino, no darán derecho ni portazgo al almojarifazgo ni a otro ninguno; lo tienen por franqueza con privilegio. Asimismo, ningún vecino de la ciudad no dará derecho ninguno de cuanto hubiere de su cosecha en la villa.<br><br>
+            <strong>[XXV] – Oficio de los pregoneros</strong><br>
+            Los <strong>pregoneros</strong> de la ciudad son puestos por el alcalde mayor, y han de pregonar cuanto que el concejo o el cabildo hubiere menester. Y si pregonaren vino, tomarán un azumbre.<br><br>
+            <strong>[XXVI] – Oficio de los corredores</strong><br>
+            Los <strong>corredores</strong> son jurados que hagan bien y lealmente su oficio, y son puestos por el alcalde mayor. De cuanto mercaren o vendieren, tomarán tres dineros del maravedí.<br><br>
+            <strong>Vocabulario:</strong><br>
+            • <strong>Alhóndiga</strong> : almacén público.<br>
+            • <strong>Almojarifazgo</strong> : impuesto de aduanas.<br>
+            • <strong>Portazgo</strong> : derecho de paso.<br>
+            • <strong>Pregonero</strong> : crique público.<br>
+            • <strong>Corredor</strong> : intermediario entre comprador y vendedor.<br>
+            • <strong>Azumbre</strong> : medida de líquido (≈2 litros).<br>
+            • <strong>Alcalde mayor</strong> : juez y gobernador nombrado por el rey.
         </div>
       </div>
 
